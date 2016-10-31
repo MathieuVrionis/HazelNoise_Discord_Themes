@@ -1,0 +1,1020 @@
+//META{"name":"BRSO_Animated_Theme","description":"The Synthetic Orchestra Discord Theme (fan made)","author":"HazelNoise","version":"0.5"}*//
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.app {
+    background-image: url(https://i.imgur.com/BfKIz4B.png);
+    background-size: cover;
+	z-index: -1;
+}
+.app:before
+{
+	content: "";
+	position: absolute;
+	width: 250%;
+	height: 250%;
+	top: -75%;
+	left: -75%;
+	/*z-index: -1;*/
+	background-image: url(https://i.imgur.com/kdC0d7t.png);
+    background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center; 
+}
+.app:before
+{
+	    -webkit-animation:spin 16s linear infinite;
+    -moz-animation:spin 16s linear infinite;
+    animation:spin 16s linear infinite;
+}
+.channels-wrap{
+		background-color: rgba(40, 40, 40, 0.5)!important;
+	border-right: 1px solid #222;
+    z-index: 1;
+}
+#voice-connection, #friends, #friends .btn, .friends-header, .friends-table, .search-bar, .channels-wrap, .links, .chat, .messages-wrapper, .title-wrap, .content/*, .scroller-wrap*/, .chat-empty, .message-group-blocked, .private-channels, .typing, .divider-red span {
+        background: rgba(30,33,36,0.4);
+}
+.channel-notices .channel-notice.invite {
+    background: url(/assets/bf625d222187f542b9d7179109422e2c.svg) center 20px no-repeat rgb(77, 93, 109);
+}
+.guild-header header {
+    background-color: rgb(130, 137, 148);
+}
+.theme-dark .chat .title-wrap {
+    background-color: #4d5d6d;
+}
+.theme-dark .chat>.content, .theme-dark .friends-table, .theme-dark .messages-wrapper {
+    background-color: rgba(54, 57, 62, 0.23);
+}
+.theme-dark .channel-members {
+    background-color: rgba(67, 75, 90, 0.62);
+}
+.flex-horizontal>.flex-spacer {
+        background-color: rgba(24, 27, 35, 0.52);
+}
+.account {
+    background-color: rgba(75, 79, 84, 0.7);
+	z-index: 2;
+}
+.guild-header header:hover {
+    background-color: rgb(60, 69, 86);
+}
+.guild-channels {
+    background-color: rgba(75, 79, 84, 0.7);
+}
+.guilds-wrapper{
+	background: rgb(28, 35, 43);
+	border-right: 1px solid #14181b;
+}
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: #97a5b3;
+    border-color: #4b4e54;
+}
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: #4d5665;
+    border-color: #1d1f23;
+}
+.theme-dark .chat form {
+    border-top: 1px solid rgba(0, 0, 0, 0.07);
+}
+.account .btn-group {
+    border: none;
+	    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+    background-color: #222;
+}
+.theme-dark #friends {
+    background-color: rgba(54,57,62,0.8);
+}
+.settings .settings-inner {
+    background-color: #fff!important;
+}
+.settings-inner > .scroller-wrap {
+    background-color: #fff!important;
+}
+.settings .settings-inner .settings-panel {
+    background-color: #fff;
+}
+.guilds-wrapper .guilds .friends-icon {
+    background-image: url(https://i.imgur.com/amV85t2.png);
+}
+.theme-dark .chat form .typing {
+    background-color: rgba(54, 57, 62, 0.42);
+}
+#voice-connection {
+    z-index: 1;
+}
+/*V0.2*/
+.guild-channels .channel-text.selected {
+    background: -webkit-linear-gradient(left,#282b30 85%,#2e3136);
+    background: -moz-linear-gradient(left,#282b30 85%,#2e3136);
+    background: -o-linear-gradient(left,#282b30 85%,#2e3136);
+    background: -ms-linear-gradient(left,#282b30 85%,#2e3136);
+    background: linear-gradient(to right,rgba(0,0,0,0.4) 85%,rgba(0,0,0,0));
+}
+.guild-channels .channel-text:hover {
+    background: -webkit-linear-gradient(left,#282b30 85%,#2e3136);
+    background: -moz-linear-gradient(left,#282b30 85%,#2e3136);
+    background: -o-linear-gradient(left,#282b30 85%,#2e3136);
+    background: -ms-linear-gradient(left,#282b30 85%,#2e3136);
+    background: linear-gradient(to right,rgba(0,0,0,0.2) 85%,rgba(0,0,0,0));
+}
+#voice-connection .btn-group {
+    border: none;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+    background-color: #222;
+}
+ .friends-table .scroller-wrap
+{
+	background-color: rgba(0,0,0,0.4);
+}
+.private-channels .channel.selected {
+    background: -webkit-linear-gradient(left,#282b30 85%,#2e3136);
+    background: -moz-linear-gradient(left,#282b30 85%,#2e3136);
+    background: -o-linear-gradient(left,#282b30 85%,#2e3136);
+    background: -ms-linear-gradient(left,#282b30 85%,#2e3136);
+    background: linear-gradient(to right,rgba(0,0,0,0.4) 85%,rgba(0,0,0,0));
+    color: #fff;
+}
+.private-channels .channel:hover {
+        background: -webkit-linear-gradient(left,#282b30 85%,#2e3136);
+    background: -moz-linear-gradient(left,#282b30 85%,#2e3136);
+    background: -o-linear-gradient(left,#282b30 85%,#2e3136);
+    background: -ms-linear-gradient(left,#282b30 85%,#2e3136);
+    background: linear-gradient(to right,rgba(0,0,0,0.2) 85%,rgba(0,0,0,0));
+}
+#voice-connection .btn-info {
+    background: #48677d;
+	border-right: none;
+}
+#voice-connection .btn-info:after {
+    opacity: .7;
+}
+#voice-connection .btn-disconnect {
+    background: #754747;
+}
+#voice-connection .btn-disconnect:after {
+    opacity: .7;
+}
+.account .btn-deafen, .account .btn-mute {
+    background: #e4e4e4;;
+}
+.account .btn-settings{
+	background: #d6b762;
+}
+.account .btn-settings:after {
+    opacity: .8;
+}
+.member.member-status:hover {
+        background: -webkit-linear-gradient(left,#282b30 85%,#2e3136)!important;
+    background: -moz-linear-gradient(left,#282b30 85%,#2e3136)!important;
+    background: -o-linear-gradient(left,#282b30 85%,#2e3136)!important;
+    background: -ms-linear-gradient(left,#282b30 85%,#2e3136)!important;
+    background: linear-gradient(to right,rgba(0,0,0,0.2) 85%,rgba(0,0,0,0))!important;
+}
+.theme-dark .chat .title-wrap .topic {
+    color: #1f1f1f;
+}
+.account .btn-deafen, .account .btn-mute {
+    border-right: none;
+}
+.messages-wrapper>.scroller-wrap:after {
+    content: "";
+    top: 0;
+ 	left: 0;
+ 	bottom: 0;
+ 	right: 0;
+  	position: absolute;
+  	z-index: -1;   
+    background-image: url(https://i.imgur.com/amV85t2.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    opacity: 0.1;
+}
+.chat form:after{
+    content: "";
+    top: 0;
+ 	left: 0;
+ 	bottom: 0;
+ 	right: 0;
+  	position: absolute;
+	background: url(https://i.imgur.com/8SySy3l.png);
+    background-size: 15%;
+    background-position: bottom;
+    background-repeat-y: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.1;
+    
+}
+#friends .friends-header .tab-bar{
+z-index: 1;
+}
+
+
+.settings .settings-header {
+    background-color: #1c232d;
+    background-image: url(https://i.imgur.com/XcVP7gz.jpg);
+}
+.tab-bar.SIDE .tab-bar-header{
+	background-color: #425053;
+}
+.settings .settings-actions{
+	background-color: #363d42;
+}
+.tab-bar.SIDE {
+    margin-right: -18px;
+}
+
+
+
+
+/*ENB_outsources*/
+.checkbox .checkbox-inner input[type=checkbox]:checked+span:after,
+.checkbox .checkbox-inner input[type=checkbox]+span:after {
+    display: none;
+}
+
+.checkbox .checkbox-inner input[type=checkbox]+span:before {
+    content: "";
+    border: 20px solid #fff;
+    border-top: 0;
+    border-left: 0;
+    display: block;
+    position: absolute;
+    bottom: 2px;
+    right: 9px;
+    -webkit-transform: scale(.65)rotate(0deg)translate(13.5px, 3px);
+    transform: scale(.65)rotate(0deg)translate(13.5px, 3px);
+    width: 1px;
+    height: 1px;
+    -webkit-transform-origin: bottom right;
+    transform-origin: bottom right;
+    -webkit-animation: check-anim- 200ms linear 200ms, check-anim2- 200ms cubic-bezier(.49, 0, 0, 1);
+    animation: check-anim- 200ms linear 200ms, check-anim2- 200ms cubic-bezier(.49, 0, 0, 1)
+}
+
+@-webkit-keyframes check-anim- {
+    100% {
+        -webkit-transform: scale(.65)rotate(0deg)translate(13.5px, 3px);
+        transform: scale(.65)rotate(0deg)translate(13.5px, 3px);
+        width: 1px;
+        height: 1px;
+    }
+    75% {
+        -webkit-transform: scale(.487)rotate(0deg)translate(15px, 0px);
+        transform: scale(.487)rotate(0deg)translate(15px, 0px);
+        width: 1px;
+        height: 1px;
+    }
+    50% {
+        -webkit-transform: scale(.325)rotate(0deg)translate(17px, -5px);
+        transform: scale(.325)rotate(0deg)translate(17px, -5px);
+        width: 1px;
+        height: 1px;
+    }
+    25% {
+        -webkit-transform: scale(.162)rotate(0deg)translate(20px, -18px);
+        transform: scale(.162)rotate(0deg)translate(20px, -18px);
+        width: 1px;
+        height: 1px;
+    }
+    0% {
+        -webkit-transform: scale(.1)rotate(0deg)translate(30px, -35px);
+        transform: scale(.1)rotate(0deg)translate(30px, -35px);
+        width: 1px;
+        height: 1px;
+    }
+}
+
+@keyframes check-anim- {
+    100% {
+        -webkit-transform: scale(.65)rotate(0deg)translate(13.5px, 3px);
+        transform: scale(.65)rotate(0deg)translate(13.5px, 3px);
+        width: 1px;
+        height: 1px;
+    }
+    75% {
+        -webkit-transform: scale(.487)rotate(0deg)translate(15px, 0px);
+        transform: scale(.487)rotate(0deg)translate(15px, 0px);
+        width: 1px;
+        height: 1px;
+    }
+    50% {
+        -webkit-transform: scale(.325)rotate(0deg)translate(17px, -5px);
+        transform: scale(.325)rotate(0deg)translate(17px, -5px);
+        width: 1px;
+        height: 1px;
+    }
+    25% {
+        -webkit-transform: scale(.162)rotate(0deg)translate(20px, -18px);
+        transform: scale(.162)rotate(0deg)translate(20px, -18px);
+        width: 1px;
+        height: 1px;
+    }
+    0% {
+        -webkit-transform: scale(.1)rotate(0deg)translate(30px, -35px);
+        transform: scale(.1)rotate(0deg)translate(30px, -35px);
+        width: 1px;
+        height: 1px;
+    }
+}
+
+@-webkit-keyframes check-anim2- {
+    100% {
+        -webkit-transform: scale(.1)rotate(45deg)translate(-10px, -35px);
+        transform: scale(.1)rotate(45deg)translate(-10px, -35px);
+        width: 1px;
+        height: 1px;
+    }
+    0% {
+        -webkit-transform: scale(.1)rotate(45deg)translate(0, 0);
+        transform: scale(.1)rotate(45deg)translate(0, 0);
+        width: 40px;
+        height: 100px;
+    }
+}
+
+@keyframes check-anim2- {
+    100% {
+        -webkit-transform: scale(.1)rotate(45deg)translate(-10px, -35px);
+        transform: scale(.1)rotate(45deg)translate(-10px, -35px);
+        width: 1px;
+        height: 1px;
+    }
+    0% {
+        -webkit-transform: scale(.1)rotate(45deg)translate(0, 0);
+        transform: scale(.1)rotate(45deg)translate(0, 0);
+        width: 40px;
+        height: 100px;
+    }
+}
+
+.checkbox .checkbox-inner input[type=checkbox]:checked+span:before {
+    -webkit-transform: scale(.1)rotate(45deg)translate(0, 0);
+    transform: scale(.1)rotate(45deg)translate(0, 0);
+    width: 40px;
+    height: 100px;
+    -webkit-animation: check-anim 100ms, check-anim2 300ms cubic-bezier(.49, 0, 0, 1) 100ms;
+    animation: check-anim 100ms, check-anim2 300ms cubic-bezier(.49, 0, 0, 1) 100ms
+}
+
+@-webkit-keyframes check-anim {
+    0% {
+        -webkit-transform: scale(.65)rotate(0deg)translate(13.5px, 3px);
+        transform: scale(.65)rotate(0deg)translate(13.5px, 3px);
+        width: 1px;
+        height: 1px;
+    }
+    25% {
+        -webkit-transform: scale(.487)rotate(0deg)translate(15px, 0px);
+        transform: scale(.487)rotate(0deg)translate(15px, 0px);
+        width: 1px;
+        height: 1px;
+    }
+    50% {
+        -webkit-transform: scale(.325)rotate(0deg)translate(17px, -5px);
+        transform: scale(.325)rotate(0deg)translate(17px, -5px);
+        width: 1px;
+        height: 1px;
+    }
+    75% {
+        -webkit-transform: scale(.162)rotate(0deg)translate(20px, -18px);
+        transform: scale(.162)rotate(0deg)translate(20px, -18px);
+        width: 1px;
+        height: 1px;
+    }
+    100% {
+        -webkit-transform: scale(.1)rotate(0deg)translate(30px, -35px);
+        transform: scale(.1)rotate(0deg)translate(30px, -35px);
+        width: 1px;
+        height: 1px;
+    }
+}
+
+@keyframes check-anim {
+    0% {
+        -webkit-transform: scale(.65)rotate(0deg)translate(13.5px, 3px);
+        transform: scale(.65)rotate(0deg)translate(13.5px, 3px);
+        width: 1px;
+        height: 1px;
+    }
+    25% {
+        -webkit-transform: scale(.487)rotate(0deg)translate(15px, 0px);
+        transform: scale(.487)rotate(0deg)translate(15px, 0px);
+        width: 1px;
+        height: 1px;
+    }
+    50% {
+        -webkit-transform: scale(.325)rotate(0deg)translate(17px, -5px);
+        transform: scale(.325)rotate(0deg)translate(17px, -5px);
+        width: 1px;
+        height: 1px;
+    }
+    75% {
+        -webkit-transform: scale(.162)rotate(0deg)translate(20px, -18px);
+        transform: scale(.162)rotate(0deg)translate(20px, -18px);
+        width: 1px;
+        height: 1px;
+    }
+    100% {
+        -webkit-transform: scale(.1)rotate(0deg)translate(30px, -35px);
+        transform: scale(.1)rotate(0deg)translate(30px, -35px);
+        width: 1px;
+        height: 1px;
+    }
+}
+
+@-webkit-keyframes check-anim2 {
+    0% {
+        -webkit-transform: scale(.1)rotate(45deg)translate(-10px, -35px);
+        transform: scale(.1)rotate(45deg)translate(-10px, -35px);
+        width: 1px;
+        height: 1px;
+    }
+    100% {
+        -webkit-transform: scale(.1)rotate(45deg)translate(0, 0);
+        transform: scale(.1)rotate(45deg)translate(0, 0);
+        width: 40px;
+        height: 100px;
+    }
+}
+
+@keyframes check-anim2 {
+    0% {
+        -webkit-transform: scale(.1)rotate(45deg)translate(-10px, -35px);
+        transform: scale(.1)rotate(45deg)translate(-10px, -35px);
+        width: 1px;
+        height: 1px;
+    }
+    100% {
+        -webkit-transform: scale(.1)rotate(45deg)translate(0, 0);
+        transform: scale(.1)rotate(45deg)translate(0, 0);
+        width: 40px;
+        height: 100px;
+    }
+}
+
+.checkbox .checkbox-inner input[type=checkbox]+span {
+    background: #7289DA;
+    -webkit-transition: all 0s;
+    transition: all 0s;
+    border-color: #7289DA;
+    -webkit-animation: box-check2 400ms cubic-bezier(.52, .01, 0, 1);
+    animation: box-check2 400ms cubic-bezier(.52, .01, 0, 1);
+}
+
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+    background: #7289DA;
+    -webkit-transition: all 0s;
+    transition: all 0s;
+    border-color: #7289DA;
+    -webkit-animation: box-check1 400ms cubic-bezier(.52, .01, 0, 1);
+    animation: box-check1 400ms cubic-bezier(.52, .01, 0, 1);
+}
+
+@-webkit-keyframes box-check1 {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    25% {
+        -webkit-transform: scale(.8);
+        transform: scale(.8);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes box-check1 {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    25% {
+        -webkit-transform: scale(.8);
+        transform: scale(.8);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes box-check2 {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    75% {
+        -webkit-transform: scale(.8);
+        transform: scale(.8);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes box-check2 {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    75% {
+        -webkit-transform: scale(.8);
+        transform: scale(.8);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.checkbox .checkbox-inner:after {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%)scale(.8);
+    transform: translate(-50%, -50%)scale(.8);
+    background: #738BD7;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transition: 200ms cubic-bezier(.35, .01, 0, 1);
+    transition: 200ms cubic-bezier(.35, .01, 0, 1);
+}
+
+.checkbox:active .checkbox-inner:after {
+    -webkit-transform: translate(-50%, -50%)scale(1);
+    transform: translate(-50%, -50%)scale(1);
+    opacity: .2;
+}
+
+.checkbox:active .checkbox-inner input[type=checkbox]:checked+span {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 100ms ease;
+    transition: all 100ms ease;
+}
+
+.connection-option .checkbox-inner span {
+    border-color: #fff!important;
+    background: #fff!important
+}
+
+.connection-option .checkbox .checkbox-inner:after {
+    background: #fff
+}
+
+#bd-customcss-attach-controls .checkbox-inner span:before {
+    border-color: #E8E8E8!important;
+}
+
+.bda-slist .checkbox .checkbox-inner span:before {
+    border-color: #F3F3F3!important;
+}
+
+.connection[style="border-color: rgb(203, 33, 32); background-color: rgb(203, 33, 32);"] .checkbox-inner span:before {
+    border-color: #CB2120!important;
+}
+
+.connection[style="border-color: rgb(89, 54, 149); background-color: rgb(89, 54, 149);"] .checkbox-inner span:before {
+    border-color: #593695!important;
+}
+
+.connection[style="border-color: rgb(0, 157, 215); background-color: rgb(0, 157, 215);"] .checkbox-inner span:before {
+    border-color: #009DD7!important;
+}
+
+.connection[style="border-color: rgb(24, 35, 50); background-color: rgb(24, 35, 50);"] .checkbox-inner span:before {
+    border-color: #182332!important;
+}
+
+.connection[style="border-color: rgb(0, 154, 229); background-color: rgb(0, 154, 229);"] .checkbox-inner span:before {
+    border-color: #0080CB!important;
+}
+
+.context-menu .item:hover .checkbox span:before {
+    border-color: #272727!important
+}
+
+.context-menu .item:active .checkbox span:before {
+    border-color: #343434!important
+}
+
+.context-menu .item .checkbox span:before {
+    border-color: #212121!important
+}
+
+.channel-notification-settings .content,
+.channel-notification-settings .content .content-inner {
+    background: #fff!important;
+}
+
+.radio .radio-inner input[type=radio]:checked+span:after {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-delay: 50ms;
+    transition-delay: 50ms;
+}
+
+.radio:hover span:after {
+    background: #fff!important;
+    opacity: 1!important
+}
+
+.radio .radio-inner span:after {
+    content: "";
+    width: 26px;
+    height: 26px;
+    background: #fff;
+    display: block;
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    border-radius: 50%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 300ms cubic-bezier(.35, .01, 0, 1);
+    transition: all 300ms cubic-bezier(.35, .01, 0, 1);
+    opacity: 1!important;
+    -webkit-transition-delay: 100ms;
+    transition-delay: 100ms;
+}
+
+.radio .radio-inner span:before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: #7289DA;
+    display: block;
+    position: absolute;
+    bottom: -11px;
+    left: -5px;
+    border-radius: 50%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 300ms cubic-bezier(.35, .01, 0, 1);
+    transition: all 300ms cubic-bezier(.35, .01, 0, 1);
+    -webkit-transition-delay: 50ms;
+    transition-delay: 50ms;
+}
+
+.radio .radio-inner input[type=radio]:checked+span:before {
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+    -webkit-transition-delay: 100ms;
+    transition-delay: 100ms;
+}
+
+.radio .radio-inner {
+    -webkit-transform: scale(0.55);
+    transform: scale(0.55);
+    background: transparent;
+    border: 4px solid #7289DA;
+    background: transparent;
+    border-radius: 100px;
+    -webkit-transition: all 200ms cubic-bezier(.35, .01, 0, 1);
+    transition: all 200ms cubic-bezier(.35, .01, 0, 1);
+    margin-top: -2px!important
+}
+
+.radio .radio-inner:after {
+    content: "";
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%)scale(.8);
+    transform: translate(-50%, -50%)scale(.8);
+    background: #738BD7;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transition: 200ms cubic-bezier(.35, .01, 0, 1);
+    transition: 200ms cubic-bezier(.35, .01, 0, 1);
+}
+
+.radio:active .radio-inner:after {
+    -webkit-transform: translate(-50%, -50%)scale(1);
+    transform: translate(-50%, -50%)scale(1);
+    opacity: .2;
+}
+
+#friends .btn {
+    -webkit-transition: all 200ms cubic-bezier(0, 1.06, .39, 1.71);
+    transition: all 200ms cubic-bezier(0, 1.06, .39, 1.71);
+}
+
+#friends .btn:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.avatar-uploader .avatar-uploader-inner:hover {
+    box-shadow: inset 0 0 120px rgba(0, 0, 0, 0)
+}
+
+.avatar-uploader .avatar-uploader-inner .avatar-uploader-hint {
+    background: rgba(0, 0, 0, 0);
+    color: transparent;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    border-radius: 1000px
+}
+
+.avatar-uploader .avatar-uploader-inner:hover .avatar-uploader-hint {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+
+
+.guilds-wrapper .guilds .friends-icon {
+    background-color: transparent
+}
+
+.scroller-wrap.fade.light {
+    background: #303030;
+}
+
+.messages-wrapper .messages .divider span {
+    background: rgba(0, 0, 0, 0.1)!important;
+    border-radius: 5px;
+    padding: 3px 20px;
+}
+
+.guild-channels .icon-instant-invite {
+    background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_share_white_24px.svg);
+}
+
+
+.guild-channels .channel.selected .icon,
+.guild-channels .channel .icon {
+    -webkit-transition: all 100ms ease;
+    transition: all 100ms ease
+}
+
+.guild-channels .channel.selected .icon,
+.guild-channels .channel:hover .icon {
+    opacity: 0.1;
+    z-index: 100
+}
+
+#voice-connection {
+    -webkit-animation: connected 300ms ease;
+    animation: connected 300ms ease;
+}
+
+@-webkit-keyframes connected {
+    0% {
+        -webkit-transform: translate(0, 60px);
+        transform: translate(0, 60px)
+    }
+    100% {
+        -webkit-transform: translate(0, 0px);
+        transform: translate(0, 0px)
+    }
+}
+
+@keyframes connected {
+    0% {
+        -webkit-transform: translate(0, 60px);
+        transform: translate(0, 60px)
+    }
+    100% {
+        -webkit-transform: translate(0, 0px);
+        transform: translate(0, 0px)
+    }
+}
+
+#voice-connection:focus {
+    -webkit-transition: all 300ms ease!important;
+    transition: all 300ms ease!important;
+    -webkit-transition-delay: 100ms;
+    transition-delay: 100ms;
+    -webkit-transform: translate(0, 60px);
+    transform: translate(0, 60px);
+}
+
+.search-bar.search-bar-light {
+    background: transparent!important;
+    box-shadow: none!important
+}
+
+.form .btn-primary {
+    margin-bottom: 5px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .0);
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    border-radius: 3px;
+}
+
+.form .btn-primary:hover {
+    -webkit-transform: translate(0, -2px);
+    transform: translate(0, -1px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, .2);
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.form .btn-primary:active {
+    color: rgba(0, 0, 0, 0.7);
+    background: rgb(220, 220, 220);
+    -webkit-transform: translate(0, 2px);
+    transform: translate(0, 2px);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, .5);
+    -webkit-transition: all 50ms ease;
+    transition: all 50ms ease;
+    border-radius: 4px;
+}
+
+.slider {
+    width: 95%;
+}
+
+.slider .slider-handle {
+    border: 0px;
+    background: #697EC4;
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    -webkit-transition: all 100ms ease, transform 200ms cubic-bezier(.35, .01, 0, 1);
+    -webkit-transition: all 100ms ease, -webkit-transform 100ms cubic-bezier(.35, .01, 0, 1);
+    transition: all 100ms ease, -webkit-transform 100ms cubic-bezier(.35, .01, 0, 1);
+    transition: all 100ms ease, transform 100ms cubic-bezier(.35, .01, 0, 1);
+    transition: all 100ms ease, transform 100ms cubic-bezier(.35, .01, 0, 1), -webkit-transform 100ms cubic-bezier(.35, .01, 0, 1);
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.slider .slider-handle:after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    background: #7289DA;
+    display: block;
+    opacity: 0;
+    border-radius: 50%;
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%)scale(1);
+    transform: translate(-50%, -50%)scale(1);
+    -webkit-transition: 300ms cubic-bezier(.35, .01, 0, 1);
+    transition: 300ms cubic-bezier(.35, .01, 0, 1);
+}
+
+.slider .slider-handle:active:after {
+    -webkit-transform: translate(-50%, -50%)scale(1.1);
+    transform: translate(-50%, -50%)scale(1.1);
+    opacity: .2;
+}
+
+.slider .slider-handle span {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 100000;
+    background: #697EC4;
+    color: #fff;
+    border-radius: 100px;
+    border: none;
+    -webkit-transition: all 100ms ease;
+    transition: all 100ms ease;
+}
+
+.slider .slider-handle:active span {}
+
+.context-menu .slider .slider-bar {
+    height: 3px
+}
+
+.slider-handle span:before,
+.slider-handle span:after {
+    display: none
+}
+
+.slider .slider-bar {
+    height: 3px;
+    -webkit-transform: translate(0, 1px);
+    transform: translate(0, 1px);
+    border-radius: 0px;
+    -webkit-transition: all 100ms ease;
+    transition: all 100ms ease;
+}
+
+.slider .slider-handle:active {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.slider-handle-track {
+    margin-right: -13px;
+    margin-left: -13px;
+}
+
+.slider-bar-fill {
+    -webkit-transition: all 100ms ease;
+    transition: all 100ms ease;
+}
+
+.context-menu .slider .slider-handle {
+    top: -5px
+}
+
+.message-group .comment .markup pre {
+    border: 0px !important;
+}
+
+.message-group .comment .markup pre code {
+    border-radius: 5px;
+    border: 2px solid #141414 !important;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tooltip {
+    -webkit-animation: ttip 100ms;
+    animation: ttip 100ms;
+}
+
+@-webkit-keyframes ttip {
+    from {
+        opacity: 0
+    }
+}
+
+@keyframes ttip {
+    from {
+        opacity: 0
+    }
+}
+
+
+
+
+
+
+.private-channels .channel:hover.channel-muted:before,
+.private-channels .channel:hover:not(.unread):before,
+.guild-channels .channel-text:hover.channel-muted:before,
+.guild-channels .channel-text:hover:not(.unread):before {
+    border-left: 4px solid #fff;
+    -webkit-transition: all 100ms ease;
+    transition: all 100ms ease;
+}
+
+.private-channels .channel.selected:before,
+.guild-channels .channel-text.selected:before {
+    border-left: 2px solid #fff;
+    -webkit-transition: all 100ms ease;
+    transition: all 100ms ease;
+}
+
+.private-channels .channel .channel-name,
+.channel-members .member .member-activity,
+.channel-members .member .member-username-inner {
+    -webkit-transition: all 100ms cubic-bezier(.43, 0, 0, 1);
+    transition: all 100ms cubic-bezier(.43, 0, 0, 1);
+}
+
+.private-channels .channel:hover .channel-name,
+.channel-members .member .member-activity,
+.channel-members .member:hover .member-username-inner {
+    -webkit-transform: translate(5px);
+    transform: translate(5px);
+}
+
+.guild-channels .channel .channel-name {
+    -webkit-transition: all 100ms ease;
+    transition: all 100ms ease;
+}
+
+.guild-channels .channel:hover .channel-name {
+    -webkit-transform: translate(5px);
+    transform: translate(5px);
+}
+.channel-members .member.popout-open .avatar-small,
+.channel-members .member:hover .avatar-small {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.channel-members .member.popout-open .avatar-small,
+.channel-members .member .avatar-small {
+    -webkit-transition: all 100ms ease;
+    transition: all 100ms ease;
+}
+
+/*ENB_outsorces END*/
