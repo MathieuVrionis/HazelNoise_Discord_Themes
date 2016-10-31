@@ -128,7 +128,7 @@ box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
     background: -moz-linear-gradient(left,#282b30 85%,#2e3136);
     background: -o-linear-gradient(left,#282b30 85%,#2e3136);
     background: -ms-linear-gradient(left,#282b30 85%,#2e3136);
-    background: linear-gradient(to right,rgba(0,0,0,0.2) 85%,rgba(0,0,0,0));
+    background: linear-gradient(to right,rgba(0,0,0,0.4) 8%,rgba(0,0,0,0));
 }
 #voice-connection .btn-info {
     background: #48677d;
