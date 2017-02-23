@@ -1,4 +1,4 @@
-//META{"name":"BRSO_Theme","description":"The Synthetic Orchestra Discord Theme (fan made)","author":"HazelNoise","version":"0.5"}*//
+//META{"name":"BRSO_Theme","description":"The Synthetic Orchestra Discord Theme (fan made)","author":"HazelNoise","version":"0.6"}*//
 
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
@@ -211,6 +211,12 @@ z-index: 1;
 }
 .tab-bar.SIDE {
     margin-right: -18px;
+}
+.theme-dark .layers {
+    background-color: transparent;
+}
+.layers {
+    background-color: transparent;
 }
 
 
