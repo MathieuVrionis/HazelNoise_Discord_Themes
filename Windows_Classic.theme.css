@@ -1,10 +1,14 @@
-//META{"name":"Windows_Classic_Theme","description":"Inspired by the classic theme in Windows.","author":"HazelNoise","version":"0.1"}*//
+//META{"name":"Windows_Classic_Theme","description":"Inspired by the classic theme in Windows.","author":"HazelNoise","version":"0.2"}*//
 
-
+.flex-vertical.channels-wrap{
+}
+.channels-wrap{
+	margin-top: 24px;
+}
 .theme-dark #friends .friends-header{
     margin-top: 24px;
 }
-.chat>.title-wrap.title-wrap-dark{
+.chat>.title-wrap{
     margin-top: 24px;
 }
 .titlebar{
