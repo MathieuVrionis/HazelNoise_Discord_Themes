@@ -1,4 +1,4 @@
-//META{"name":"Windows_Classic_Theme","description":"Inspired by the classic theme in Windows.","author":"HazelNoise","version":"0.2"}*//
+//META{"name":"Windows_Classic_Theme","description":"Inspired by the classic theme in Windows.","author":"HazelNoise","version":"0.3"}*//
 
 .flex-vertical.channels-wrap{
 }
@@ -25,9 +25,6 @@
 .titlebar::before{
 	content:"Discord";
     margin-left: 30px;
-}
-.flexChild-1KGW5q{
-	margin-top: 24px;
 }
 .guilds-wrapper .scroller-wrap{
 	margin-top: 24px;
