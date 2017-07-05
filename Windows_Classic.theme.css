@@ -1,0 +1,73 @@
+//META{"name":"Windows_Classic_Theme","description":"Inspired by the classic theme in Windows.","author":"HazelNoise","version":"0.1"}*//
+
+
+.theme-dark #friends .friends-header{
+    margin-top: 24px;
+}
+.chat>.title-wrap.title-wrap-dark{
+    margin-top: 24px;
+}
+.titlebar{
+	background: url('https://i.imgur.com/sVq9f1A.png') left no-repeat, linear-gradient(to right, #0a246a , #a6caf0);
+    height: 19px;
+    border-top: solid 2px #d4d0c8;
+    border-left: solid 2px #bcb8b1;
+    border-right: solid 2px #bcb8b1;
+    border-bottom: solid 1px #706f6c;
+    padding-top: 5px;
+    color: #fff;
+    font-size: 14px;
+}
+.titlebar::before{
+	content:"Discord";
+    margin-left: 30px;
+}
+.flexChild-1KGW5q{
+	margin-top: 24px;
+}
+.guilds-wrapper .scroller-wrap{
+	margin-top: 24px;
+}
+.win-buttons{
+	height: 10px;
+}
+.win-buttons button{
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #848484;
+  border-bottom: 2px solid #848484;
+  background-color: #d4d0c8;
+  padding: 3px 1px 3px 1px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-left: 1px;
+  margin-right: 1px;
+    margin-top: 14px;
+    height: 20px;
+    opacity: 1;
+}
+.win-buttons button:hover{
+  background-color: #ddd;
+  cursor: default;
+}
+.win-buttons button:active{
+  background-color: #aaa;
+}
+.win-buttons.win-buttons-light .win-minimize{
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHRyYW5zZm9ybT0ibWF0cml4KDAgLTEgLTEgMCAyNCAyNCkiPgogICAgPHBvbHlnb24gZmlsbD0iIzRGNTQ1QyIgcG9pbnRzPSI2IDYgOCA2IDggMTggNiAxOCIvPgogICAgPHBvbHlnb24gcG9pbnRzPSIwIDI0IDAgMCAyNCAwIDI0IDI0Ii8+CiAgPC9nPgo8L3N2Zz4K);
+}
+.win-buttons.win-buttons-light .win-maximize{
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgPHBvbHlnb24gcG9pbnRzPSIwIDAgMjQgMCAyNCAyNCAwIDI0Ii8+CiAgICA8cGF0aCBmaWxsPSIjNEY1NDVDIiBkPSJNNywxMiBMNSwxMiBMNSwxOSBMMTIsMTkgTDEyLDE3IEw3LDE3IEw3LDEyIFogTTUsMTIgTDcsMTIgTDcsNyBMMTIsNyBMMTIsNSBMNSw1IEw1LDEyIFogTTEyLDE3IEwxMiwxOSBMMTksMTkgTDE5LDEyIEwxNywxMiBMMTcsMTcgTDEyLDE3IFogTTEyLDUgTDEyLDcgTDE3LDcgTDE3LDEyIEwxOSwxMiBMMTksNSBMMTIsNSBaIi8+CiAgPC9nPgo8L3N2Zz4K);
+    
+}
+.win-buttons.win-buttons-light .win-close{
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgPHBvbHlnb24gcG9pbnRzPSIwIDAgMjQgMCAyNCAyNCAwIDI0Ii8+CiAgICA8cG9seWdvbiBmaWxsPSIjNEY1NDVDIiBwb2ludHM9IjE5IDYuNDEgMTcuNTkgNSAxMiAxMC41OSA2LjQxIDUgNSA2LjQxIDEwLjU5IDEyIDUgMTcuNTkgNi40MSAxOSAxMiAxMy40MSAxNy41OSAxOSAxOSAxNy41OSAxMy40MSAxMiIvPgogIDwvZz4KPC9zdmc+Cg==);
+}
+.app{
+ border: solid 1px #aaa;
+ box-shadow: 0 0 1px #fff inset;
+
+ background-image: linear-gradient(to bottom, #d4d0c8 0%, #77746f 100%);
+ padding: 1px;
+}
