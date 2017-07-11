@@ -1,4 +1,4 @@
-//META{"name":"BRSO_Theme","description":"The Synthetic Orchestra Discord Theme (fan made)","author":"HazelNoise","version":"0.7"}*//
+//META{"name":"BRSO_Theme","description":"The Synthetic Orchestra Discord Theme (fan made)","author":"HazelNoise","version":"0.8"}*//
 
 @keyframes slideInFromLeft {
   0% {
@@ -63,7 +63,7 @@
 .messages-wrapper::after, .ui-standard-sidebar-view .content-region:after{
 	content: "";
     /*CHANGE YOUR BACKGROUND HERE*/
-    background-image: url(https://i.imgur.com/amV85t2.png);
+    background-image: url(https://i.imgur.com/wuBNLTP.png);
     top: 0;
     left: 0;
     bottom: 0;
@@ -74,6 +74,11 @@
     background-position: bottom;
     background-repeat: no-repeat;
 	background-size: 80%;
+}
+.theme-dark .messages-wrapper::after, .theme-dark .ui-standard-sidebar-view .content-region:after{
+	content: "";
+    opacity: 0.03;
+    background-image: url(https://i.imgur.com/amV85t2.png);
 }
 /*ADD TREES!*/
 /*.chat form::after{
@@ -310,22 +315,17 @@ a .avatar-small{
 .private-channels .channel:hover > a .avatar-small{
     zoom: 110%;
 }
-.ui-standard-sidebar-view .sidebar-region{
-	background: #d71933;
-    background-image: -webkit-linear-gradient(50deg, #16191b 50%, #d71933 50%)!important;
-}
-.theme-dark .ui-standard-sidebar-view .sidebar-region{
-	background: #d71933;
-    background-image: -webkit-linear-gradient(50deg, #16191b 50%, #d71933 50%);
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller{
+    background-image: url(https://i.imgur.com/LYyaTIx.png);
 }
 .theme-dark .ui-standard-sidebar-view .content-region {
-    background: #1e3444;
+    background: #191d21;
 }
 .ui-standard-sidebar-view .sidebar-region .sidebar{
-	background-color: rgba(0,0,0, 0.6);
+	background-color: rgba(0,0,0, 0.2);
 }
 .ui-tab-bar.SIDE .ui-tab-bar-item.selected, .ui-tab-bar.SIDE .ui-tab-bar-item:active{
-	background: #81a4cd;
+	background: #191d21;
 }
 .ui-tab-bar.SIDE .ui-tab-bar-item{
    	transition: all 0.1s ease;
